@@ -1,0 +1,71 @@
+/* Section Buttons */
+.sectionButtons{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+.sectionButtons .buttonPrincipal{
+    max-width: 80px;
+}
+.sectionButtons .buttonPrincipal .btn{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    background: #16302B;
+    box-shadow: 1px 1px 1px #d3d3d3;
+}
+.sectionButtons .buttonPrincipal p{
+    max-width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    color: #575656;
+    margin-top: 3px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+/* Horarios Cadastrados */
+.sectionHorarios header h2{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.sectionHorarios .divRegistros .registro{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #f7f7f7
+}
+.sectionHorarios .divRegistros .registro .divLeft{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    gap: 3%;
+}
+.sectionHorarios .divRegistros .registro .divLeft .imgRegistro{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #EFEFEF;
+}
+.sectionHorarios .divRegistros .registro .divLeft .infoRegistro p{
+    font-size: 14px;    
+}
+.sectionHorarios .divRegistros .registro .divLeft .infoRegistro .pSubtitle{
+    font-size: 11px;
+    font-weight: medium;
+    color: #a0a0a0; 
+}
+.sectionHorarios .divRegistros .registro .btnOutros a{
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+}
