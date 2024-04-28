@@ -1,0 +1,139 @@
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 90vh;
+    padding: 15px;
+}
+
+/* Header  */
+.headerInfos{
+    display: flex;
+    align-items: center;
+    line-height: 18px;
+    justify-content: space-between;
+
+}
+.headerDivUser{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* Banner Principal */
+.bannerPrincipal{
+    width: 100%;
+    min-height: 169px;
+    border-radius: 10px;
+    margin-top: 20px;
+    background: #16302B;
+}
+.bannerPrincipal img{
+    width: 100%;
+    height: 100%;
+}
+
+/* BtnACesso Rapido */
+.btnRapido{
+    position: relative;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    min-height: 105px;
+    overflow: auto;
+}
+.btnRapido .button, .btnRapido .buttonPrincipal{
+    width: fit-content;
+}
+.btnRapido .buttonPrincipal .btn{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    background: #16302B;
+    box-shadow: 1px 1px 1px #d3d3d3;
+}
+.btnRapido .button p, .btnRapido .buttonPrincipal p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 3px;
+    text-align: center;
+}
+.btnRapido .button .btn{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: #16302B;
+    background: #EFEFEF;
+    box-shadow: 1px 1px 1px #d3d3d3;
+}
+/* Últimos registros */
+.ultimosRegistros header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ultimosRegistros header h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.ultimosRegistros header p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.ultimosRegistros .divRegistros .registro{
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #EFEFEF
+}
+.ultimosRegistros .divRegistros .registro .divLeft{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    gap: 6%;
+}
+.ultimosRegistros .divRegistros .registro .divLeft .imgRegistro{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #EFEFEF;
+    box-shadow: 1px 1px 1px #d3d3d3;
+}
+.ultimosRegistros .divRegistros .registro .divLeft .infoRegistro p{
+    font-size: 13px;    
+}
+.ultimosRegistros .divRegistros .registro .divLeft .infoRegistro .pSubtitle{
+    font-size: 13px;
+    font-weight: medium;
+    color: #a0a0a0; 
+}
+.ultimosRegistros .divRegistros .registro .horaRegistro{
+    width: 15%;
+    text-align: right;
+}
+.ultimosRegistros .divRegistros .registro .horaRegistro p{
+    position: relative;
+    top: +2px;
+    font-size: 18px;
+}
+.ultimosRegistros .divRegistros .registro .horaRegistro .pSubtitle{
+    position: relative;
+    top: -2px;
+    font-size: 13px;
+    font-weight: medium;
+    color: #a0a0a0; 
+}
+
