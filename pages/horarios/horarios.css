@@ -60,8 +60,8 @@
 .sectionHorarios .divRegistros .registro .divLeft{
     display: flex;
     align-items: center;
-    width: 85%;
-    gap: 6%;
+    width: 95%;
+    gap: 3%;
 }
 .sectionHorarios .divRegistros .registro .divLeft .imgRegistro{
     padding: 15px;
