@@ -86,7 +86,7 @@ main{
 }
 .ultimosRegistros header a{
     font-size: 13px;
-    font-weight: 600;
+    color: #16302B;
 }
 .ultimosRegistros .divRegistros .registro{
     height: fit-content;
