@@ -16,6 +16,7 @@ input, select, textarea{
     border: 1px solid #BCBCBC;
     border-radius: 5px;
     padding: 0 10px;
+    color: black;
 }
 input:focus, select:focus, textarea:focus{
     outline: 0;
