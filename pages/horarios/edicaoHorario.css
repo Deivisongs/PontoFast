@@ -20,6 +20,7 @@ form header{
 .horario input{
     min-width: 65px;
     max-width: 200px;
+    color: black;
 }
 .horario .icon{
     padding: 15px;
