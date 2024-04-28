@@ -28,9 +28,9 @@ input:focus, select:focus, textarea:focus{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    height: 90vh;
     padding: 15px;
     margin-bottom: 70px;
+    border: 1px solid black;
 }
 
 /* Header Principal Paginas*/
