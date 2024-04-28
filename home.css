@@ -83,9 +83,6 @@
     font-size: 13px;
     color: #16302B;
 }
-.ultimosRegistros .divRegistros{
-    padding-bottom: 70px;
-}
 .ultimosRegistros .divRegistros .registro{
     height: fit-content;
     display: flex;
