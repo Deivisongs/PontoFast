@@ -97,7 +97,7 @@ form header{
     }
     .divConfing{
         width: 100%;
-        max-width: 300px;
+        max-width: 100%;
         margin: 20px 0;
     }
 }
