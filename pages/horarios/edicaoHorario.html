@@ -66,53 +66,68 @@
                 <label for="nomeHorario">Nome:</label>
                 <input type="text" name="nomeHorario" id="nomeHorario" placeholder="Horário Padrão">
             </header>
-            <div class="divHoras">
-                <div class="horario">
-                    <div class="icon">
-                        <span class="material-symbols-outlined">arrow_forward</span>
+            <div class="divItens">
+                <div class="divHoras">
+                    <div class="horario">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </div>
+                        <div class="input">
+                            <input type="time" name="entrada" id="entrada" value="08:30">
+                        </div>
                     </div>
-                    <div class="input">
-                        <input type="time" name="entrada" id="entrada" value="08:30">
+                    <div class="horario">
+                        <div class="icon">
+                            <span class="material-symbols-outlined saida">arrow_back</span>
+                        </div>
+                        <div class="input">
+                            <input type="time" name="entrada" id="entrada" value="12:00">
+                        </div>
+                    </div>
+                    <div class="horario">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </div>
+                        <div class="input">
+                            <input type="time" name="entrada" id="entrada" value="13:00">
+                        </div>
+                    </div>
+                    <div class="horario">
+                        <div class="icon">
+                            <span class="material-symbols-outlined saida">arrow_back</span>
+                        </div>
+                        <div class="input">
+                            <input type="time" name="entrada" id="entrada" value="16:00">
+                        </div>
+                    </div>
+                    <div class="horario">
+                        <div class="icon">
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </div>
+                        <div class="input">
+                            <input type="time" name="entrada" id="entrada" value="16:15">
+                        </div>
+                    </div>
+                    <div class="horario">
+                        <div class="icon">
+                            <span class="material-symbols-outlined saida">arrow_back</span>
+                        </div>
+                        <div class="input">
+                            <input type="time" name="entrada" id="entrada" value="17:30">
+                        </div>
                     </div>
                 </div>
-                <div class="horario">
-                    <div class="icon">
-                        <span class="material-symbols-outlined saida">arrow_back</span>
+            
+                <div class="divConfing">
+                    <div class="btnbutton" id="btnbutton" onclick="abrirConfig()">
+                        <span class="material-symbols-outlined">manufacturing</span>
+                        <p id="btnTexto">Configurações Avançadas ▼</p>
                     </div>
-                    <div class="input">
-                        <input type="time" name="entrada" id="entrada" value="12:00">
-                    </div>
-                </div>
-                <div class="horario">
-                    <div class="icon">
-                        <span class="material-symbols-outlined">arrow_forward</span>
-                    </div>
-                    <div class="input">
-                        <input type="time" name="entrada" id="entrada" value="13:00">
-                    </div>
-                </div>
-                <div class="horario">
-                    <div class="icon">
-                        <span class="material-symbols-outlined saida">arrow_back</span>
-                    </div>
-                    <div class="input">
-                        <input type="time" name="entrada" id="entrada" value="16:00">
-                    </div>
-                </div>
-                <div class="horario">
-                    <div class="icon">
-                        <span class="material-symbols-outlined">arrow_forward</span>
-                    </div>
-                    <div class="input">
-                        <input type="time" name="entrada" id="entrada" value="16:15">
-                    </div>
-                </div>
-                <div class="horario">
-                    <div class="icon">
-                        <span class="material-symbols-outlined saida">arrow_back</span>
-                    </div>
-                    <div class="input">
-                        <input type="time" name="entrada" id="entrada" value="17:30">
+                    <div class="configTrue" id="configTrue">
+                        <label for="toleranciaMenos">Tolerância para Menos:</label>
+                        <input type="time" name="toleranciaMenos" id="toleranciaMenos" value="00:10">
+                        <label for="toleranciaMais">Tolerância para Mais:</label>
+                        <input type="time" name="toleranciaMais" id="toleranciaMais" value="00:10">
                     </div>
                 </div>
             </div>
@@ -125,6 +140,7 @@
             </div>
         </form>
     </main>
+    <script src="edicaoHorario.js"></script>
 </body>
 </html>
 

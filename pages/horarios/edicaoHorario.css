@@ -6,7 +6,12 @@ form header{
     font-weight: bold;
     margin-bottom: 30px;
 }
+.divItens{
+    display: flex;
+    flex-wrap: wrap;
+}
 .divHoras{
+    width: 70%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -30,6 +35,38 @@ form header{
     border-radius: 50%;
     background: #EFEFEF;
 }
+.divConfing{
+    width: 30%;
+    max-width: 300px;
+}
+.divConfing .btnbutton{
+    width: 100%;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    background: #16302b;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.247);
+}
+.divConfing .configTrue{
+    display: none;
+    padding: 10px;
+    background-color: #EFEFEF;
+    text-align: right;
+    border-radius: 0 0 10px 10px;
+}
+.divConfing .configTrue label{
+    font-size: 13px;
+}
+.divConfing .configTrue input{
+    margin: 10px 0;
+}
+
+
 .divButtons{
     margin-top: 25px;
     font-size: 18px;
@@ -57,5 +94,10 @@ form header{
     }
     .horario{
         width: 100%;
+    }
+    .divConfing{
+        width: 100%;
+        max-width: 300px;
+        margin: 20px 0;
     }
 }
