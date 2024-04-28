@@ -30,15 +30,11 @@ form header{
     justify-content: center;
     border-radius: 50%;
     background: #EFEFEF;
-}/*
-.horario .icon span{
-    color: #16302B;
 }
-.horario .icon .saida{
-    color: #CF0000;
-}
-*/
 @media(max-width: 930px){
+    .divHoras{
+        gap: 0px;
+    }
     .horario{
         width: 100%;
     }
