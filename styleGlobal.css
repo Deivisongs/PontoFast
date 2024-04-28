@@ -67,7 +67,7 @@ a{
 
 @media(max-width: 800px){
     .header{
-        padding: 7px 0 9px 0;
+        padding: 13px 0 13px 0;
         width: 100%;
         bottom: -3px;
         position: fixed;
