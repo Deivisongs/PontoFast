@@ -30,6 +30,27 @@ form header{
     border-radius: 50%;
     background: #EFEFEF;
 }
+.divButtons{
+    margin-top: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.divButtons a{
+    font-weight: 400;
+    color: #16302b;
+}
+.divButtons div{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.divButtons div > .btnApagar{
+    color: #FC0000;
+}
+
+
+
 @media(max-width: 930px){
     .divHoras{
         gap: 0px;
