@@ -1,0 +1,45 @@
+form header{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.divHoras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.horario{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+}
+.horario input{
+    width: 33%;
+    min-width: 65px;
+    max-width: 200px;
+}
+.horario .icon{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #EFEFEF;
+}/*
+.horario .icon span{
+    color: #16302B;
+}
+.horario .icon .saida{
+    color: #CF0000;
+}
+*/
+@media(max-width: 930px){
+    .horario{
+        width: 100%;
+    }
+}
