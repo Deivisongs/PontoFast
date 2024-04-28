@@ -84,8 +84,8 @@ main{
     font-size: 18px;
     font-weight: bold;
 }
-.ultimosRegistros header p{
-    font-size: 10px;
+.ultimosRegistros header a{
+    font-size: 13px;
     font-weight: 600;
 }
 .ultimosRegistros .divRegistros .registro{
