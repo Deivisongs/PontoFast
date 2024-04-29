@@ -1,0 +1,51 @@
+.main form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.main form label{
+    font-weight: bold;
+    font-size: 17px;
+}
+.main form input{
+    margin-bottom: 10px;
+}
+.main form div{
+    display: flex;
+    justify-content: flex-start;
+}
+.main form div div{
+    display: flex;
+    flex-direction: column;
+}
+.main form div .serie{
+    margin-left: 15px;
+}
+.main form div .serie input{
+    max-width: 150px;
+}
+.main form select{
+    margin: 15px 0;
+}
+#divButtons{
+    width: 100%;
+    justify-content: space-between;
+}
+@media(max-width: 800px){
+    .main form{
+        width: 100%;
+        max-width: 100%;
+    }
+    .main form div .ctps{
+        width: 60%;
+    }
+    .main form div .serie{
+        width: 40%;
+    }
+    .main form div .serie input{
+        width: 100%;
+        max-width: 100%;
+
+    }
+}

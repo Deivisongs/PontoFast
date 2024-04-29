@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!-- Link CSS Global -->
+            <link rel="stylesheet" href="../../../styleGlobal.css">
+
+            <!-- Link CSS-->
+            <link rel="stylesheet" href="criarFuncionario.css">
+        
+            <!-- Link Google Fonts -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        
+            <!-- Link Google Icons -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Novo Funcionário | PontoFast</title>
+</head>
+<body>
+    <header class="headerPrincipal">
+        <div class="divLogo">
+            <span class="material-symbols-outlined">flutter_dash</span>
+        </div>
+        <nav>
+            <li>
+                <a href="../../../index.html">
+                    <span class="material-symbols-outlined">home_app_logo</span>
+                </a>
+            </li>
+            <li>
+                <a href="../../horarios/horarios.html">
+                    <span class="material-symbols-outlined">schedule</span>
+                </a>
+            </li>
+            <li class="linkPrincipal">
+                <a href="funcionarios.html">
+                    <span class="material-symbols-outlined">add_notes</span>
+                </a>
+            </li>
+            <li>
+                <a href="../funcionarios.html">
+                    <span class="material-symbols-outlined">groups</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="material-symbols-outlined">menu</span>
+                </a>
+            </li>
+        </nav>
+        <div class="divBtnOff">
+            <span class="material-symbols-outlined">power_settings_new</span>
+        </div>
+    </header>
+    <main class="main">
+        <header class="header">
+            <h1>Novo Funcionário</h1>
+        </header>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <label for="cpf">CPF:</label>
+            <input type="text" name="cpf" id="cpf" placeholder="00.000.000-00">
+            <label for="rg">RG:</label>
+            <input type="text" name="rg" id="rg" placeholder="00.000.000">
+            <div>
+                <div class="ctps">
+                    <label for="ctps">CTPS:</label>
+                    <input type="text" name="ctps" id="ctps" placeholder="CTPS">
+                </div>
+                <div class="serie">
+                    <label for="serie">Série:</label>
+                    <input type="text" name="serie" id="serie" placeholder="Serie">
+                </div>
+            </div>
+            <label for="nacimento">Data de Nacimento:</label>
+            <input type="date" name="nacimento" id="nacimento">
+
+            <select name="horario" id="horario">
+                <option value="0" selected disabled>Selecione um Horário...</option>
+                <option value="1">Horário 1</option>
+                <option value="2">Horário 2</option>
+            </select>
+
+            <select name="" id="horario">
+                <option value="0" selected disabled>Selecione a Função...</option>
+                <option value="1">Operador(a) de Caixa</option>
+                <option value="2">Repositor</option>
+            </select>
+
+            <div class="divButtons" id="divButtons">
+                    <a href="../funcionarios.html">< Voltar</a>
+                    <a href="#">Salvar ></a>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
