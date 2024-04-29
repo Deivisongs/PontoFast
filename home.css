@@ -109,9 +109,9 @@
     font-size: 13px;    
 }
 .ultimosRegistros .divRegistros .registro .divLeft .infoRegistro .pSubtitle{
-    font-size: 13px;
+    font-size: 11px;
     font-weight: medium;
-    color: #a0a0a0; 
+    color: #a0a0a0;  
 }
 .ultimosRegistros .divRegistros .registro .horaRegistro{
     width: 15%;
@@ -125,7 +125,7 @@
 .ultimosRegistros .divRegistros .registro .horaRegistro .pSubtitle{
     position: relative;
     top: -2px;
-    font-size: 13px;
+    font-size: 11px;
     font-weight: medium;
     color: #a0a0a0; 
 }
